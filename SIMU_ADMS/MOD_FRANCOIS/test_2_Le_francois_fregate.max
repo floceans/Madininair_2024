@@ -1,0 +1,3 @@
+Maximum long term average concentrations
+ Group,Pollutant,Averaging time,Units,X(m),Y(m),Z(m),Maximum value
+<All sources>,H2S,   1hr  -,ppm,-6777198.00, 1633779.62,       0.00,    0.10383E+02

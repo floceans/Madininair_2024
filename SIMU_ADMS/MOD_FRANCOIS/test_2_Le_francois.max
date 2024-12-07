@@ -1,0 +1,3 @@
+Maximum long term average concentrations
+ Group,Pollutant,Averaging time,Units,X(m),Y(m),Z(m),Maximum value
+Thalemont,H2S,   1hr  -,ppm,-6779181.50, 1637341.88,       0.00,    0.39401E+01

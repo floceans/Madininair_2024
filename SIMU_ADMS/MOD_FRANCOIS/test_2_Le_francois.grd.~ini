@@ -1,0 +1,23 @@
+﻿
+[TatukGIS Layer]
+Active=YES
+Caption=H2S ppm
+CodePage=1252
+CS.EPSG=3395
+Custom.RelatedLayerTag=-21
+Layer3D=Off
+MaxHeight=2.50059700012207
+MinHeight=5.76219827408408E-9
+Pixel.AltitudeMapZone1=0,20,$14FFFF,0
+Pixel.AltitudeMapZone2=20,40,$11D4FF,20
+Pixel.AltitudeMapZone3=40,60,$DAAFF,40
+Pixel.AltitudeMapZone4=60,80,$A80FF,60
+Pixel.AltitudeMapZone5=80,100,$755FF,80
+Pixel.AltitudeMapZone6=100,120,$32AFF,100
+Pixel.AltitudeMapZone7=120,140,$FF,120
+Pixel.GridBand=1
+Pixel.GridNoValue=3.402823466E38
+Pixel.GridShadow=NO
+Pixel.ShowLegend=YES
+Visible=YES
+

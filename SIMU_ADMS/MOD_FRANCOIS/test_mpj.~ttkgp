@@ -1,0 +1,88 @@
+﻿
+[TatukGIS]
+CS.EPSG=3395
+VisibleExtent.XMax=-6775298.03405047
+VisibleExtent.XMin=-6778785.79237907
+VisibleExtent.YMax=1635025.01673868
+VisibleExtent.YMin=1632265.3597838
+
+[TatukGIS Layer1]
+Active=YES
+Caption=OpenStreetMaps Tiles
+CodePage=1252
+CS.EPSG=3785
+MaxHeight=-3.39999995214436E38
+MinHeight=3.39999995214436E38
+Name=tatukgis_osm
+Path=C:\\Program Files (x86)\\CERC\\ADMS-Urb\\Data\\OpenStreetMaps Global TMS.ttkwp
+Visible=YES
+
+[TatukGIS Layer2]
+Name=test_2_Le_francois
+Path=C:\\Users\\service.si\\OneDrive - MADININAIR\\Documents\\Simu_ADMS\\run_test_2\\test_2_Le_francois.grd
+
+[TatukGIS Layer3]
+Name=test_2_Le_francois [1]
+Path=C:\\Users\\service.si\\OneDrive - MADININAIR\\Documents\\Simu_ADMS\\run_test_2\\test_2_Le_francois.shp
+
+[TatukGIS Layer4]
+Name=test_2_Le_francois [2]
+Path=C:\\Users\\service.si\\OneDrive - MADININAIR\\Documents\\Simu_ADMS\\run_test_2\\test_2_Le_francois.grd
+
+[TatukGIS Layer5]
+Name=test_2_Le_francois [3]
+Path=C:\\Users\\service.si\\OneDrive - MADININAIR\\Documents\\Simu_ADMS\\run_test_2\\test_2_Le_francois.grd
+
+[TatukGIS Layer6]
+Name=test_2_Le_francois [4]
+Path=C:\\Users\\service.si\\OneDrive - MADININAIR\\Documents\\Simu_ADMS\\run_test_2\\test_2_Le_francois.grd
+
+[TatukGIS Hierarchy]
+Index1=Project\Sources=Point sources;Line sources;Road sources;Area sources;Volume sources;Grid source cells
+Index2=Project\Setup=Terrain file
+Index3=Project\Output=Output grid extent;Output grid points
+Index4=Results=test_2_Le_francois;test_2_Le_francois [1];test_2_Le_francois [2];test_2_Le_francois [3];test_2_Le_francois [4]
+Index5=User=tatukgis_osm
+
+[TatukGIS Group1]
+Active=YES
+Caption=test_2_francois
+CodePage=1252
+Name=Project
+Visible=YES
+
+[TatukGIS Group2]
+Active=YES
+Caption=Sources
+CodePage=1252
+Name=Sources
+Visible=YES
+
+[TatukGIS Group3]
+Active=YES
+Caption=Setup
+CodePage=1252
+Name=Setup
+Visible=YES
+
+[TatukGIS Group4]
+Active=YES
+Caption=Output
+CodePage=1252
+Name=Output
+Visible=YES
+
+[TatukGIS Group5]
+Active=YES
+Caption=Results
+CodePage=1252
+Name=Results
+Visible=YES
+
+[TatukGIS Group6]
+Active=YES
+Caption=User
+CodePage=1252
+Name=User
+Visible=YES
+

@@ -1,0 +1,12 @@
+﻿
+[TatukGIS Layer]
+Active=YES
+Caption=H2S ug/m3 contours
+CodePage=1252
+CS.EPSG=3395
+Custom.RelatedLayerTag=-2
+Ground=AboveZero
+Label.Font.Size=8
+Line.ShowLegend=YES
+Visible=YES
+

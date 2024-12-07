@@ -1,0 +1,115 @@
+____________________________________________________________________________
+____________________________________________________________________________
+_____________________________ ADMS-Urban (5.0) _____________________________
+_________________ Atmospheric Dispersion Modelling System __________________
+____________________________________________________________________________
+___ Copyright (C) 2020 Cambridge Environmental Research Consultants Ltd. ___
+____________________________________________________________________________
+_______________ This run was made at  9:18 on the 03/09/2024 _______________
+____________________________________________________________________________
+ **************************************************************************
+ *                               ADMS-Urban                               *
+ *                            Version 5.0.0.1                             *
+ *                           Build number 5129                            *
+ *                              January 2020                              *
+ *                                                                        *
+ *                Atmospheric Dispersion Modelling System                 *
+ *                                                                        *
+ *                                                                        *
+ *         User Name:      Ms Lilou Saby                                  *
+ *                                                                        *
+ *         Company Name:   Madininair                                     *
+ *                                                                        *
+ *         Licence Number: P01-1392-C-URBAN-FR                            *
+ *                                                                        *
+ **************************************************************************
+
+SETUP MESSAGES:
+
+INFO   : SHORT TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\francois_nord\francois_thalemont.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : No Short Term Calculations required
+
+SETUP MESSAGES:
+
+INFO   : LONG TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\francois_nord\francois_thalemont.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : Using the complex terrain module.
+
+ABOUT THE RUN:
+
+ Full command line         :  C:\Program Files (x86)\CERC\ADMS-Urb\ADMSUrbanModel.exe /E1 /Urban C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_FRANCOIS\test_2_Le_francois.upl
+
+ Model input file          : 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_FRANCOIS\test_2_Le_francois.upl'
+ Site name                 :  Frégate-Est - Le Francois                                                                   
+ Project name              :  test_2_francois                                                                             
+ Coordinate system         :  WGS 84 World Mercator (epsg:3395)                                                                   
+
+ Surface roughness = .300 m
+ Latitude = 14.60 degrees
+
+
+SOURCE DATA:
+
+Your .upl file contains the following sources:
+   0 Point sources
+   0 Jet sources
+   0 Line sources, with 0 segments
+   6 Area sources
+   0 Volume sources
+   0 Road sources, with 0 segments
+   0 Grid source cells
+ Emissions are not time-varying
+
+
+METEOROLOGICAL DATA:
+
+ Met data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\météo\horaire\data_vaulin_22_08_24.met'
+ Height of recorded wind = 2.0 m
+ Sequential met data  
+
+
+POLLUTANT BACKGROUND DATA:
+
+ Constant background data input by hand 
+
+
+MODELLING OPTIONS:
+
+ Complex terrain
+ Terrain elevation data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\francois_nord\francois_thalemont.ter'
+ Surface roughness data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\francois_nord\francois_thalemont.ruf'
+
+
+OUTPUT OPTIONS:
+
+ Group output
+ Gridded output
+ Regular grid spacing
+ Using nested grids
+
+MET PROCESSOR MESSAGES:
+
+
+PROGRAM MESSAGES:
+
+INFO   : (Long Term Calculations)
+INFO   : Long term : met line    24 of    145
+INFO   : Long term : met line    48 of    145
+INFO   : Long term : met line    72 of    145
+INFO   : Long term : met line    96 of    145
+INFO   : Long term : met line   120 of    145
+INFO   : Long term : met line   144 of    145
+
+SUMMARY OF MET DATA:
+
+INFO   : Total number of lines of met data =   145
+INFO   : Number of lines of usable data =   145
+INFO   : Long Term Calculations completed
+
+RUN COMPLETION MESSAGES:
+
+INFO   : This log file is closing on  3/ 9/2024
+INFO   : Time:  9:18:57
+INFO   : Time elapsed while log file open was 27 seconds
+End of Logfile

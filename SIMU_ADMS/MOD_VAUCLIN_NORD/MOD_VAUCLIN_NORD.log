@@ -1,0 +1,323 @@
+____________________________________________________________________________
+____________________________________________________________________________
+_____________________________ ADMS-Urban (5.0) _____________________________
+_________________ Atmospheric Dispersion Modelling System __________________
+____________________________________________________________________________
+___ Copyright (C) 2020 Cambridge Environmental Research Consultants Ltd. ___
+____________________________________________________________________________
+_______________ This run was made at 15:27 on the 14/11/2024 _______________
+____________________________________________________________________________
+ **************************************************************************
+ *                               ADMS-Urban                               *
+ *                            Version 5.0.0.1                             *
+ *                           Build number 5129                            *
+ *                              January 2020                              *
+ *                                                                        *
+ *                Atmospheric Dispersion Modelling System                 *
+ *                                                                        *
+ *                                                                        *
+ *         User Name:      Ms Lilou Saby                                  *
+ *                                                                        *
+ *         Company Name:   Madininair                                     *
+ *                                                                        *
+ *         Licence Number: P01-1392-C-URBAN-FR                            *
+ *                                                                        *
+ **************************************************************************
+
+SETUP MESSAGES:
+
+INFO   : SHORT TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\RUF\Vauclin_nord_wsg_3395.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : No Short Term Calculations required
+
+SETUP MESSAGES:
+
+INFO   : LONG TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\RUF\Vauclin_nord_wsg_3395.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : Using the complex terrain module.
+
+ABOUT THE RUN:
+
+ Full command line         :  C:\Program Files (x86)\CERC\ADMS-Urb\ADMSUrbanModel.exe /E1 /Urban C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_VAUCLIN_NORD\MOD_VAUCLIN_NORD.upl
+
+ Model input file          : 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_VAUCLIN_NORD\MOD_VAUCLIN_NORD.upl'
+ Site name                 :  Vauclin_nord                                                                                
+ Project name              :  MOD_Vauclin_Nord                                                                            
+ Coordinate system         :  WGS 84 World Mercator (epsg:3395)                                                                   
+
+ Surface roughness = .500 m
+ Latitude = 52.00 degrees
+
+
+SOURCE DATA:
+
+Your .upl file contains the following sources:
+   0 Point sources
+   0 Jet sources
+   0 Line sources, with 0 segments
+   0 Area sources
+   1 Volume sources
+   0 Road sources, with 0 segments
+   0 Grid source cells
+ Emissions are not time-varying
+
+
+METEOROLOGICAL DATA:
+
+ Met data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\météo\met_francois_23_24.met'
+ Height of recorded wind = 2.0 m
+ Sequential met data  
+
+
+POLLUTANT BACKGROUND DATA:
+
+ Constant background data input by hand 
+
+
+MODELLING OPTIONS:
+
+ Complex terrain
+ Terrain elevation data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\TER\Vauclin_nord_epsg3395.ter'
+ Surface roughness data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\RUF\Vauclin_nord_wsg_3395.ruf'
+
+
+OUTPUT OPTIONS:
+
+ Group output
+ Gridded output
+ Regular grid spacing
+ Using nested grids
+
+MET PROCESSOR MESSAGES:
+
+WARNING: Hour number       1. WIND DIRN is not available from the met file - It is impossible to continue the calculation for this hour
+INFO   : Met line     5 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line     6 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line     7 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line     8 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line     9 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line    10 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line    11 Calm conditions: using U(10)=   0.75 PHI= 260.00
+INFO   : Met line    22 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    23 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    24 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    25 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    26 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    27 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    28 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    29 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    30 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    31 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    32 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    33 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    34 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    35 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    36 Calm conditions: using U(10)=   0.75 PHI= 330.00
+INFO   : Met line    50 Calm conditions: using U(10)=   0.75 PHI=  10.00
+INFO   : Met line    51 Calm conditions: using U(10)=   0.75 PHI=  10.00
+INFO   : Met line    52 Calm conditions: using U(10)=   0.75 PHI=  10.00
+INFO   : Met line    53 Calm conditions: using U(10)=   0.75 PHI=  10.00
+INFO   : Met line    57 Calm conditions: using U(10)=   0.75 PHI=   6.67
+INFO   : Met line    59 Calm conditions: using U(10)=   0.75 PHI=  26.67
+INFO   : Met line    81 Calm conditions: using U(10)=   0.75 PHI=  50.00
+INFO   : Met line    82 Calm conditions: using U(10)=   0.75 PHI=  50.00
+INFO   : Met line    97 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line    98 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line    99 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line   102 Calm conditions: using U(10)=   0.75 PHI=  90.00
+INFO   : Met line   103 Calm conditions: using U(10)=   0.75 PHI=  90.00
+INFO   : Met line   104 Calm conditions: using U(10)=   0.75 PHI=  90.00
+INFO   : Met line   191 Calm conditions: using U(10)=   0.75 PHI=  90.00
+INFO   : Met line   192 Calm conditions: using U(10)=   0.75 PHI=  90.00
+INFO   : Met line   195 Calm conditions: using U(10)=   0.75 PHI= 100.00
+INFO   : Met line   197 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   198 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   199 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   200 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   201 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   202 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   203 Calm conditions: using U(10)=   0.75 PHI=  93.33
+INFO   : Met line   236 Calm conditions: using U(10)=   0.75 PHI=  76.67
+INFO   : Met line   240 Calm conditions: using U(10)=   0.75 PHI= 230.00
+INFO   : Met line   241 Calm conditions: using U(10)=   0.75 PHI= 230.00
+INFO   : Met line   242 Calm conditions: using U(10)=   0.75 PHI= 230.00
+INFO   : Met line   243 Calm conditions: using U(10)=   0.75 PHI= 230.00
+INFO   : Met line   244 Calm conditions: using U(10)=   0.75 PHI= 230.00
+INFO   : Met line   246 Calm conditions: using U(10)=   0.75 PHI=  80.00
+INFO   : Met line   492 Calm conditions: using U(10)=   0.75 PHI= 150.00
+INFO   : Met line   493 Calm conditions: using U(10)=   0.75 PHI= 150.00
+INFO   : Met line   494 Calm conditions: using U(10)=   0.75 PHI= 150.00
+INFO   : Met line   527 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   528 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   529 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   530 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   531 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   532 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   533 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   534 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   535 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   536 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   537 Calm conditions: using U(10)=   0.75 PHI=  70.00
+INFO   : Met line   539 Calm conditions: using U(10)=   0.75 PHI= 210.00
+INFO   : Met line   550 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   551 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   552 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   553 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   554 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   555 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   556 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   557 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   558 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   559 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   560 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   561 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   562 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   563 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   564 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   565 Calm conditions: using U(10)=   0.75 PHI= 170.00
+INFO   : Met line   577 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   578 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   579 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   580 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   581 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   582 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   583 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   584 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   585 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   586 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   587 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   588 Calm conditions: using U(10)=   0.75 PHI= 353.33
+INFO   : Met line   597 Calm conditions: using U(10)=   0.75 PHI=  73.33
+INFO   : Met line   599 Calm conditions: using U(10)=   0.75 PHI=  23.33
+INFO   : Met line   600 Calm conditions: using U(10)=   0.75 PHI=  23.33
+INFO   : Met line   601 Calm conditions: using U(10)=   0.75 PHI=  23.33
+INFO   : Met line   603 Calm conditions: using U(10)=   0.75 PHI= 263.33
+INFO   : Met line   604 Calm conditions: using U(10)=   0.75 PHI= 263.33
+INFO   : Met line   605 Calm conditions: using U(10)=   0.75 PHI= 263.33
+INFO   : Met line   606 Calm conditions: using U(10)=   0.75 PHI= 263.33
+INFO   : Met line   608 Calm conditions: using U(10)=   0.75 PHI=  63.33
+INFO   : Met line   609 Calm conditions: using U(10)=   0.75 PHI=  63.33
+INFO   : Met line   610 Calm conditions: using U(10)=   0.75 PHI=  63.33
+INFO   : Met line   611 Calm conditions: using U(10)=   0.75 PHI=  63.33
+INFO   : Met line   612 Calm conditions: using U(10)=   0.75 PHI=  63.33
+INFO   : Met line   615 Calm conditions: using U(10)=   0.75 PHI=  13.33
+INFO   : Met line   621 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   622 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   623 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   624 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   625 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   626 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   627 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   628 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   629 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   630 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   631 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   632 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   633 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   634 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   635 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   636 Calm conditions: using U(10)=   0.75 PHI=  16.67
+INFO   : Met line   646 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   647 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   648 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   649 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   650 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   651 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   652 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   653 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   654 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   655 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   656 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   657 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   658 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   659 Calm conditions: using U(10)=   0.75 PHI= 173.33
+INFO   : Met line   671 Calm conditions: using U(10)=   0.75 PHI= 116.67
+INFO   : Met line   673 Calm conditions: using U(10)=   0.75 PHI= 223.33
+INFO   : Met line   674 Calm conditions: using U(10)=   0.75 PHI= 223.33
+INFO   : Met line   676 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line   677 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line   678 Calm conditions: using U(10)=   0.75 PHI= 120.00
+INFO   : Met line   682 Calm conditions: using U(10)=   0.75 PHI= 196.67
+INFO   : Met line   683 Calm conditions: using U(10)=   0.75 PHI= 196.67
+
+PROGRAM MESSAGES:
+
+INFO   : (Long Term Calculations)
+WARNING: Inadequate met data---PROGRAM SKIPPING MET LINE 1---
+INFO   : Long term : met line    24 of    744
+INFO   : Long term : met line    48 of    744
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 49
+INFO   : Long term : met line    72 of    744
+INFO   : Long term : met line    96 of    744
+INFO   : Long term : met line   120 of    744
+INFO   : Long term : met line   144 of    744
+INFO   : Long term : met line   168 of    744
+INFO   : Long term : met line   192 of    744
+INFO   : Long term : met line   216 of    744
+INFO   : Long term : met line   240 of    744
+INFO   : Long term : met line   264 of    744
+INFO   : Long term : met line   288 of    744
+INFO   : Long term : met line   312 of    744
+INFO   : Long term : met line   336 of    744
+INFO   : Long term : met line   360 of    744
+INFO   : Long term : met line   384 of    744
+INFO   : Long term : met line   408 of    744
+INFO   : Long term : met line   432 of    744
+INFO   : Long term : met line   456 of    744
+INFO   : Long term : met line   480 of    744
+INFO   : Long term : met line   504 of    744
+INFO   : Long term : met line   528 of    744
+INFO   : Long term : met line   552 of    744
+INFO   : Long term : met line   576 of    744
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 576
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 576
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 577
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 581
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 584
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 587
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 590
+INFO   : Long term : met line   600 of    744
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 620
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 620
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 620
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 621
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 621
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 622
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 622
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 623
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 623
+INFO   : Long term : met line   624 of    744
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 626
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 626
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 627
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 627
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 629
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 629
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 630
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 630
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 632
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 632
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 633
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 633
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 635
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 635
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 636
+WARNING: An attempt was made to access data outside the FLOWSTAR grid, met line number 636
+INFO   : Long term : met line   648 of    744
+INFO   : Long term : met line   672 of    744
+INFO   : Long term : met line   696 of    744
+INFO   : Long term : met line   720 of    744
+INFO   : Long term : met line   744 of    744
+
+SUMMARY OF MET DATA:
+
+INFO   : Total number of lines of met data =   744
+INFO   : Number of lines of usable data =   743
+INFO   : Long Term Calculations completed
+
+RUN COMPLETION MESSAGES:
+
+INFO   : This log file is closing on 14/11/2024
+INFO   : Time: 15:29:14
+INFO   : Time elapsed while log file open was  2 minutes and  5 seconds
+End of Logfile

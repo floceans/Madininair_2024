@@ -1,0 +1,117 @@
+____________________________________________________________________________
+____________________________________________________________________________
+_____________________________ ADMS-Urban (5.0) _____________________________
+_________________ Atmospheric Dispersion Modelling System __________________
+____________________________________________________________________________
+___ Copyright (C) 2020 Cambridge Environmental Research Consultants Ltd. ___
+____________________________________________________________________________
+_______________ This run was made at 11:17 on the 22/10/2024 _______________
+____________________________________________________________________________
+ **************************************************************************
+ *                               ADMS-Urban                               *
+ *                            Version 5.0.0.1                             *
+ *                           Build number 5129                            *
+ *                              January 2020                              *
+ *                                                                        *
+ *                Atmospheric Dispersion Modelling System                 *
+ *                                                                        *
+ *                                                                        *
+ *         User Name:      Ms Lilou Saby                                  *
+ *                                                                        *
+ *         Company Name:   Madininair                                     *
+ *                                                                        *
+ *         Licence Number: P01-1392-C-URBAN-FR                            *
+ *                                                                        *
+ **************************************************************************
+
+SETUP MESSAGES:
+
+INFO   : SHORT TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\francois_sud\francois_sud_2_ruf.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : No Short Term Calculations required
+
+SETUP MESSAGES:
+
+INFO   : LONG TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\francois_sud\francois_sud_2_ruf.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+INFO   : Using the complex terrain module.
+
+ABOUT THE RUN:
+
+ Full command line         :  C:\Program Files (x86)\CERC\ADMS-Urb\ADMSUrbanModel.exe /E1 /Urban C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_FRANCOIS\test_2_Le_francois_fregate.upl
+
+ Model input file          : 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_FRANCOIS\test_2_Le_francois_fregate.upl'
+ Site name                 :  Frégate-Est - Le Francois                                                                   
+ Project name              :  test_2_francois                                                                             
+ Coordinate system         :  WGS 84 World Mercator (epsg:3395)                                                                   
+
+ Surface roughness = .300 m
+ Latitude = 14.60 degrees
+
+
+SOURCE DATA:
+
+Your .upl file contains the following sources:
+   0 Point sources
+   0 Jet sources
+   0 Line sources, with 0 segments
+   17 Area sources
+   0 Volume sources
+   0 Road sources, with 0 segments
+   0 Grid source cells
+ Emissions are not time-varying
+
+
+METEOROLOGICAL DATA:
+
+ Met data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\météo\horaire\data_vaulin_22_08_24.met'
+ Height of recorded wind = 2.0 m
+ Sequential met data  
+
+
+POLLUTANT BACKGROUND DATA:
+
+ Constant background data input by hand 
+
+
+MODELLING OPTIONS:
+
+ Complex terrain
+ Terrain elevation data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\francois_sud\francois_sud.ter'
+ Surface roughness data file 'C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\francois_sud\francois_sud_2_ruf.ruf'
+
+
+OUTPUT OPTIONS:
+
+ Group output
+ Gridded output
+ Regular grid spacing
+ Using nested grids
+
+MET PROCESSOR MESSAGES:
+
+WARNING: Hour number       1. There is insufficient information to estimate the depth to which the growing daytime boundary layer has grown. As a result, an estimate of boundary layer depth based on the assumption of neutral conditions is adopted
+WARNING: Hour number       2. There is insufficient information to estimate the depth to which the growing daytime boundary layer has grown. As a result, an estimate of boundary layer depth based on the assumption of neutral conditions is adopted
+WARNING: Hour number       3. There is insufficient information to estimate the depth to which the growing daytime boundary layer has grown. As a result, an estimate of boundary layer depth based on the assumption of neutral conditions is adopted
+WARNING: Hour number       4. There is insufficient information to estimate the depth to which the growing daytime boundary layer has grown. As a result, an estimate of boundary layer depth based on the assumption of neutral conditions is adopted
+WARNING: Hour number       5. There is insufficient information to estimate the depth to which the growing daytime boundary layer has grown. As a result, an estimate of boundary layer depth based on the assumption of neutral conditions is adopted
+
+PROGRAM MESSAGES:
+
+INFO   : (Long Term Calculations)
+INFO   : Long term : met line    24 of     73
+INFO   : Long term : met line    48 of     73
+INFO   : Long term : met line    72 of     73
+
+SUMMARY OF MET DATA:
+
+INFO   : Total number of lines of met data =    73
+INFO   : Number of lines of usable data =    73
+INFO   : Long Term Calculations completed
+
+RUN COMPLETION MESSAGES:
+
+INFO   : This log file is closing on 22/10/2024
+INFO   : Time: 11:18: 6
+INFO   : Time elapsed while log file open was 35 seconds
+End of Logfile

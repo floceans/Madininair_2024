@@ -1,0 +1,654 @@
+[All Layers]
+FileVersion=1
+CreatedBy=ADMS-Urban
+LayerCount=28
+ZOrder0=tatukgis_osm
+ZOrder1=Layer
+ZOrder2=MOD_ROBERT [1]
+ZOrder3=Vertical Slice Points
+ZOrder4=Vertical Slice Extent
+ZOrder5=ASP file
+ZOrder6=Roughness file
+ZOrder7=Terrain file
+ZOrder8=Spatial splitting edit
+ZOrder9=Spatial splitting
+ZOrder10=Output grid points
+ZOrder11=Output grid extent
+ZOrder12=Grid source cells
+ZOrder13=Volume sources
+ZOrder14=Area sources
+ZOrder15=Buildings
+ZOrder16=Source exclusion by receptor
+ZOrder17=Road sources
+ZOrder18=Line sources
+ZOrder19=Specified points
+ZOrder20=Point sources
+ZOrder21=Grid footprint
+ZOrder22=Volume footprint
+ZOrder23=Area footprint
+ZOrder24=Road footprint
+ZOrder25=Line footprint
+ZOrder26=Point footprint
+ZOrder27=Extract Data Extent
+
+[ADMS Layer]
+LayerType=18
+
+[TatukGIS Layer]
+Active=YES
+Caption=Point footprint
+CodePage=1252
+CS.EPSG=3395
+FalseMEx.Field=Elevation
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=160
+Marker.SmartSize=16
+Marker.Style=CIRCLE
+ScaleZ=0
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=21
+
+[TatukGIS Layer]
+Active=YES
+Caption=Line footprint
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Line.OutlineWidth=1
+Line.ShowLegend=YES
+Line.SmartSize=12
+Line.Width=20
+Line.WidthEx.Factor=-1000
+Line.WidthEx.Field=Width
+Line.WidthEx.Scalable=YES
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=22
+
+[TatukGIS Layer]
+Active=YES
+Caption=Road footprint
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+Label.Font.Size=8
+Line.Color=BLUE
+Line.OutlineWidth=1
+Line.ShowLegend=YES
+Line.SmartSize=12
+Line.Width=20
+Line.WidthEx.Factor=-1000
+Line.WidthEx.Field=Width
+Line.WidthEx.Scalable=YES
+Visible=YES
+
+[TatukGIS Layer 1]
+Ground=AboveDem
+Label.Font.Size=8
+Line.ShowLegend=NO
+Line.Width=10
+MaxScale=4E-5
+MinScale=0
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=19
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=255:128:64:255
+Area.OutlineWidth=2
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Area footprint
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=20
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=128:0:255:255
+Area.OutlineWidth=2
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Volume footprint
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=23
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=TEAL
+Area.OutlineWidth=2
+Area.Pattern=FDIAGONAL
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Grid footprint
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=1
+
+[TatukGIS Layer]
+Active=YES
+Caption=Point sources (0)
+CodePage=1252
+CS.EPSG=3395
+FalseMEx.Field=Elevation
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.OutlineColor=1:1:1:255
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=160
+Marker.SmartSize=16
+Marker.Style=CIRCLE
+ScaleZ=0
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=9
+
+[TatukGIS Layer]
+Active=YES
+Caption=Specified points
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.Color=LIME
+Marker.OutlineColor=1:1:1:255
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=140
+Marker.SmartSize=12
+Visible=YES
+
+[TatukGIS Layer 1]
+Ground=AboveDem
+Label.Font.Size=8
+Marker.Color=BLUE
+Marker.ShowLegend=NO
+Query=IsTarget
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=4
+
+[TatukGIS Layer]
+Active=YES
+Caption=Line sources (0)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Line.OutlineColor=1:1:1:255
+Line.OutlineWidth=1
+Line.ShowLegend=YES
+Line.SmartSize=12
+Line.Width=20
+Line.WidthEx.Factor=-1000
+Line.WidthEx.Field=Width
+Line.WidthEx.Scalable=YES
+Visible=YES
+
+[TatukGIS Layer 1]
+Ground=AboveDem
+Label.Font.Size=8
+Line.ShowLegend=NO
+Line.Width=10
+MaxScale=4E-5
+MinScale=0
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=5
+
+[TatukGIS Layer]
+Active=YES
+Caption=Road sources (0)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Line.Color=BLUE
+Line.OutlineColor=BLUE
+Line.OutlineWidth=1
+Line.ShowLegend=YES
+Line.SmartSize=12
+Line.Width=20
+Line.WidthEx.Factor=-1000
+Line.WidthEx.Field=Width
+Line.WidthEx.Scalable=YES
+Visible=YES
+
+[TatukGIS Layer 1]
+Ground=AboveDem
+Label.Font.Size=8
+Line.ShowLegend=NO
+Line.Width=10
+MaxScale=4E-5
+MinScale=0
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=28
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=116:196:118:255
+Area.OutlineColor=GREEN
+Area.Pattern=DIAGCROSS
+Caption=Source exclusion by receptor
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Layer3D=Off
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=10
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=GREEN
+Area.OutlineColor=1:1:1:255
+Area.OutlineWidth=10
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Buildings
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Transparency=50
+Visible=YES
+
+[TatukGIS Layer 1]
+Area.OutlineColor=RED
+Area.OutlineWidth=20
+Area.ShowLegend=NO
+Ground=AboveDem
+Label.Font.Size=8
+Legend=Main building
+Query=IsMainBuilding=True
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=2
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=255:128:64:255
+Area.OutlineColor=1:1:1:255
+Area.OutlineWidth=2
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Area sources (15)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=3
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=128:0:255:255
+Area.OutlineColor=1:1:1:255
+Area.OutlineWidth=2
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Volume sources (0)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=6
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=TEAL
+Area.OutlineColor=TEAL
+Area.OutlineWidth=2
+Area.Pattern=FDIAGONAL
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Grid source cells (0)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=11
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=PURPLE
+Area.OutlineColor=LIME
+Area.OutlineWidth=40
+Area.Pattern=TRANSPARENT
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Output grid extent
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Transparency=20
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=12
+
+[TatukGIS Layer]
+Active=NO
+Caption=Output grid points (961)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.Color=LIME
+Marker.OutlineColor=GREEN
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=114
+Marker.SmartSize=16
+Marker.Style=CROSS
+Transparency=20
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=26
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=255:255:192:255
+Caption=Spatial splitting
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveZero
+HideFromLegend=YES
+Label.Color=255:255:192:255
+Label.Font.Size=8
+Label.Value={[In Run]}
+Transparency=60
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=27
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=192:192:255:255
+Caption=Spatial splitting edit
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveZero
+HideFromLegend=YES
+Label.Color=192:192:255:255
+Label.Font.Size=8
+Label.Value={[In Run]}
+Transparency=60
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=13
+
+[TatukGIS Layer]
+Active=NO
+Caption=Terrain file (254520)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveZero
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.Color=RENDER
+Marker.OutlineColor=1:1:1:255
+Marker.ShowLegend=YES
+Marker.Size=160
+Marker.SmartSize=16
+Render.ColorDefault=WHITE
+Render.Expression=Elevation
+Render.MaxVal=312.9
+Render.Zones=5
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=14
+
+[TatukGIS Layer]
+Active=NO
+Caption=Roughness file (254520)
+CodePage=1252
+CS.EPSG=3395
+FalseZEx.Field=Roughness (m)
+Ground=AboveZero
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.Color=RENDER
+Marker.OutlineColor=1:1:1:255
+Marker.ShowLegend=YES
+Marker.Size=160
+Marker.SmartSize=16
+Render.ColorDefault=WHITE
+Render.EndColor=128:64:64:255
+Render.Expression=Elevation
+Render.MaxVal=0.5
+Render.MinVal=0.0001
+Render.Zones=-5
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=15
+
+[TatukGIS Layer]
+Active=YES
+Caption=ASP file (**file missing**)
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.Color=LIME
+Marker.OutlineColor=RED
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=140
+Marker.SmartSize=16
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=16
+
+[TatukGIS Layer]
+Active=YES
+Caption=Vertical Slice Extent
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Line.Color=RED
+Line.OutlineColor=RED
+Line.OutlineWidth=2
+Line.ShowLegend=YES
+Line.SmartSize=12
+Line.Width=20
+Transparency=40
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=17
+
+[TatukGIS Layer]
+Active=YES
+Caption=Vertical Slice Points
+CodePage=1252
+CS.EPSG=3395
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Marker.OutlineColor=RED
+Marker.OutlineWidth=2
+Marker.ShowLegend=YES
+Marker.Size=140
+Marker.SmartSize=16
+Visible=YES
+
+[LayerEnd]
+
+[ADMS Layer]
+LayerType=1001
+
+[TatukGIS Layer]
+Active=YES
+Area.Color=PURPLE
+Area.OutlineColor=RED
+Area.OutlineWidth=40
+Area.Pattern=TRANSPARENT
+Area.ShowLegend=YES
+Area.SmartSize=12
+Caption=Extract Data Extent
+CodePage=1252
+Ground=AboveDem
+HideFromLegend=YES
+IgnoreShapeParams=YES
+Label.Font.Size=8
+Visible=YES
+
+[LayerEnd]
+
+[Other Layer]
+LayerName=tatukgis_osm
+LayerType=3
+FilePath=C:\Program Files (x86)\CERC\ADMS-Urb\Data\OpenStreetMaps Global TMS.ttkwp
+[LayerEnd]
+
+[Other Layer]
+LayerName=MOD_ROBERT [1]
+LayerType=0
+FilePath=C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\MOD_ROBERT\MOD_ROBERT.shp
+
+[TatukGIS Layer]
+Active=NO
+Caption=H2S ug/m3 contours
+CodePage=1252
+CS.EPSG=3395
+Custom.RelatedLayerTag=-2
+Ground=AboveZero
+Label.Font.Size=8
+Line.ShowLegend=YES
+Visible=YES
+
+[LayerEnd]
+

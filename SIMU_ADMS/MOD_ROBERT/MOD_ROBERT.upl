@@ -1,0 +1,2345 @@
+&ADMS_HEADER
+Comment     = "This is an ADMS-Urban Model parameter file"
+Model       = "ADMS-Urban"
+Version     = 5
+FileVersion = 12
+Complete    = 1
+/
+
+&ADMS_PARAMETERS_SUP
+SupSiteName                 = "MOD_ROBERT"
+SupProjectName              = "MOD_ROBERT"
+SupUseAddInput              = 0
+SupAddInputPath             = " "
+SupReleaseType              = 0
+SupModelBuildings           = 0
+SupModelComplexTerrain      = 1
+SupModelCoastline           = 0
+SupCalcChm                  = 0
+SupCalcDryDep               = 0
+SupCalcWetDep               = 0
+SupModelOdours              = 0
+SupPaletteType              = 1
+SupUseSpatialSplitting      = 0
+SupNumSplitRegions          = 0
+SupUseSrcExcByRec           = 0
+SupUseSrcExcByEmRate        = 0
+SupUseTimeVaryingEmissions  = 0
+SupTimeVaryingEmissionsType = 0
+SupUseTimeVaryingFAC        = 0
+SupTimeVaryingFACPath       = " "
+SupUseTimeVaryingHFC        = 0
+SupTimeVaryingHFCPath       = " "
+SupUseTimeVaryingScreenBySource= "00001100"
+SupTimeVaryingEmissionFactorsWeekday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTimeVaryingEmissionFactorsSaturday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTimeVaryingEmissionFactorsSunday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTrafficEmissionsDataset  = "EFT v9.0 (2 VC)"
+SupModelAircraft            = 0
+SupAircraftDataPath         = " "
+SupAircraftUseSpeedEmissionFile= 0
+SupAircraftSpeedEmissionPath= " "
+SupAircraftNumGroups        = 0
+SupNO2PercentIndustrial     = 5
+SupNO2PercentRoad           = 23.8
+SupNO2PercentGrid           = 12
+SupNO2PercentAircraft       = 5
+/
+&ADMS_PARAMETERS_SPLIT
+SplitRegionRunType          = 0
+SplitRegionRunSingleID      = 1
+SplitTruncateOutputPoints   = 1
+SplitTruncateSource =
+  1 1 1 1
+  1 0 0 0
+SplitTruncateBufferSize =
+  5.00e+2 5.00e+2 5.00e+2 5.00e+2
+  5.00e+2 5.00e+2 5.00e+2 5.00e+2
+SplitPartiallyInBufferType =
+  0 0 0 0
+  0 0 0 0
+/
+&ADMS_PARAMETERS_SER
+SERSelectedSourceType       = 99
+SERTruncateSource =
+  1 1 1 1
+  1 0 0 0
+SERTruncateRadius =
+  1.000e+3 1.000e+3 1.000e+3 1.000e+3
+  1.000e+3 1.000e+3 1.000e+3 1.000e+3
+/
+&ADMS_PARAMETERS_SEE
+SEEPollutant                = " "
+SEETruncateSource =
+  1 1 1 1
+  1 0 0 0
+SEETruncateEmRate =
+  0.0e+0 0.0e+0 0.0e+0 0.0e+0
+  0.0e+0 0.0e+0 0.0e+0 0.0e+0
+/
+&ADMS_PARAMETERS_MET
+MetLatitude               = 1.46e+1
+MetDataSource             = 0
+MetDataFileWellFormedPath = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\météo\donnees_vauclin_15_juillet.met"
+MetWindHeight             = 1.0e+1
+MetWindInSectors          = 1
+MetWindSectorSizeDegrees  = 1.0e+1
+MetDataIsSequential       = 1
+MetUseSubset              = 1
+MetSubsetHourStart        = 24
+MetSubsetDayStart         = 8
+MetSubsetMonthStart       = 7
+MetSubsetYearStart        = 2024
+MetSubsetHourEnd          = 23
+MetSubsetDayEnd           = 10
+MetSubsetMonthEnd         = 7
+MetSubsetYearEnd          = 2024
+MetUseVerticalProfile     = 0
+MetVerticalProfilePath    = " "
+Met_DS_RoughnessMode      = 1
+Met_DS_Roughness          = 5.0e-1
+Met_DS_UseAdvancedMet     = 1
+Met_DS_SurfaceAlbedoMode  = 0
+Met_DS_SurfaceAlbedo      = 2.3e-1
+Met_DS_PriestlyTaylorMode = 0
+Met_DS_PriestlyTaylor     = 1.0e+0
+Met_DS_MinLmoMode         = 1
+Met_DS_MinLmo             = 3.0e+1
+Met_DS_PrecipFactorMode   = 0
+Met_DS_PrecipFactor       = 1.0e+0
+Met_MS_RoughnessMode      = 3
+Met_MS_Roughness          = 5.0e-1
+Met_MS_UseAdvancedMet     = 0
+Met_MS_SurfaceAlbedoMode  = 3
+Met_MS_SurfaceAlbedo      = 2.3e-1
+Met_MS_PriestlyTaylorMode = 3
+Met_MS_PriestlyTaylor     = 1.0e+0
+Met_MS_MinLmoMode         = 3
+Met_MS_MinLmo             = 1.0e+0
+MetHeatFluxType           = 0
+MetInclBoundaryLyrHt      = 1
+MetInclSurfaceTemp        = 0
+MetInclLateralSpread      = 0
+MetInclRelHumidity        = 0
+MetHandNumEntries         = 0
+/
+&ADMS_PARAMETERS_BLD
+BldNumBuildings = 0
+/
+&ADMS_PARAMETERS_HIL
+HilGridSize        = 2
+HilUseTerFile      = 1
+HilUseRoughFile    = 1
+HilTerrainPath     = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\Robert\Robert_epsg3395.ter"
+HilRoughPath       = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\CODE_PROPRE\concat\Robert\Robert_wsg_3395.ruf"
+HilCreateFlowField = 0
+/
+&ADMS_PARAMETERS_CST
+CstPoint1X         = 0.0e+0
+CstPoint1Y         = 0.0e+0
+CstPoint2X         = -1.000e+3
+CstPoint2Y         = 1.000e+3
+CstLandPointX      = 5.00e+2
+CstLandPointY      = 5.00e+2
+/
+&ADMS_PARAMETERS_GRD
+GrdType            = 0
+GrdCoordSysType    = 0
+GrdSpacingType     = 0
+GrdUseSourceOrientedGrids = 
+ 0
+ 1
+GrdRegularMin      = 
+ -6.784600e+6 1.638500e+6 0.0e+0
+GrdRegularMax      = 
+ -6.781910e+6 1.642060e+6 0.0e+0
+GrdRegularNumPoints= 
+ 31 31 1
+GrdVarSpaceNumPointsX  = 0
+GrdVarSpaceNumPointsY  = 0
+GrdVarSpaceNumPointsZ  = 0
+GrdPtsNumPoints        = 0
+GrdPtsUsePointsFile    = 0
+GrdPtsPointsFilePath   = " "
+/
+&ADMS_PARAMETERS_OPT
+OptNumOutputs               = 1
+OptPolName                  =
+  "H2S"
+OptInclude                  =
+  1
+OptShortOrLong              =
+  1
+OptSamplingTime             =
+  1.0e+0
+OptSamplingTimeUnits        =
+  3
+OptCondition                =
+  0
+OptNumPercentiles           =
+  0
+OptNumExceedences           =
+  0
+OptPercentiles              =
+  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0
+OptExceedences              =
+  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0
+OptUnits                    =
+  "ppm"
+OptValidity                 =
+  7.5e+1
+OptGroupsOrSource           = 0
+OptAllSources               = 1
+OptNumGroups                = 0
+OptIncludedSource           = "FaC1"
+OptCreateComprehensiveFile  = 0
+OptOutputPerSource          = 0
+/
+&ADMS_PARAMETERS_CHM
+ChmScheme       = 1
+/
+&ADMS_PARAMETERS_BKG
+BkgFilePath     = " "
+BkgFixedLevels  = 1
+/
+&ADMS_COORDINATESYSTEM
+ProjectedEPSG               = 3395
+ProjectedName               = "WGS 84 World Mercator (epsg:3395)"
+ProjectedWKT                = " "
+/
+&ADMS_PARAMETERS_ETC
+SrcNumSources   = 29
+PolNumPollutants= 9
+PolNumIsotopes  = 1
+/
+&ADMS_MAPPERPROJECT
+ProjectFilePath             = " "
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NOx"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.2e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NO2"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.2e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NO"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 8.0e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "VOC"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 3.1e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "O3"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.0e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "SO2"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 3.7e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "PM2.5"
+ PolPollutantType         = 1
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  2.5e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 1.0e+0
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ug/m3"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "PM10"
+ PolPollutantType         = 1
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-5
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 1.0e+0
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ug/m3"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "H2S"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 7.2e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_ISOTOPE_DETAILS
+ IsoName                  = "(unnamed-isotope)"
+ IsoPollutantType         = 0
+ IsoGasDepVelocityKnown   = 1
+ IsoGasDepositionVelocity = 0.0e+0
+ IsoGasType               = 0
+ IsoParDepVelocityKnown   = 1
+ IsoParTermVelocityKnown  = 1
+ IsoParNumDepositionData  = 1
+ IsoParDepositionVelocity =
+  0.0e+0
+ IsoParTerminalVelocity =
+  0.0e+0
+ IsoParDiameter =
+  1.0e-6
+ IsoParDensity =
+  1.000e+3
+ IsoParMassFraction =
+  1.0e+0
+ IsoWetWashoutKnown = 1
+ IsoWetWashout      = 0.0e+0
+ IsoWetWashoutA     = 1.0e-4
+ IsoWetWashoutB     = 6.4e-1
+ IsoConvFactor      = 1.0e+0
+ IsoBkgLevel        = 0.0e+0
+ IsoBkgUnits        = "Bq/m3"
+/
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC1"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78324042e+6
+  SourceVertexY = 1.63940534e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78323286e+6
+  SourceVertexY = 1.63940558e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78321794e+6
+  SourceVertexY = 1.63936544e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78319071e+6
+  SourceVertexY = 1.63927291e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78319764e+6
+  SourceVertexY = 1.63928111e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78321359e+6
+  SourceVertexY = 1.63932631e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC2"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78324412e+6
+  SourceVertexY = 1.63944606e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78325691e+6
+  SourceVertexY = 1.6394764e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78326613e+6
+  SourceVertexY = 1.63954542e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78325929e+6
+  SourceVertexY = 1.63954572e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC3"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78326197e+6
+  SourceVertexY = 1.63955553e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78326702e+6
+  SourceVertexY = 1.63955494e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78327952e+6
+  SourceVertexY = 1.6395948e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78327446e+6
+  SourceVertexY = 1.63959986e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC4"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78307518e+6
+  SourceVertexY = 1.63906059e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78306635e+6
+  SourceVertexY = 1.63906319e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.783030e+6
+  SourceVertexY = 1.63896244e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78305856e+6
+  SourceVertexY = 1.63900762e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC5"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.783030e+6
+  SourceVertexY = 1.63896244e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78299936e+6
+  SourceVertexY = 1.63892349e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7829682e+6
+  SourceVertexY = 1.63887831e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78299137e+6
+  SourceVertexY = 1.63890202e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7830193e+6
+  SourceVertexY = 1.63893227e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78303026e+6
+  SourceVertexY = 1.63895553e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC6"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78276138e+6
+  SourceVertexY = 1.6386677e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78275444e+6
+  SourceVertexY = 1.63866652e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78272855e+6
+  SourceVertexY = 1.63863009e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78271518e+6
+  SourceVertexY = 1.63859824e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78269395e+6
+  SourceVertexY = 1.63853989e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78270023e+6
+  SourceVertexY = 1.63854074e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "FaC7"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "FaC"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78308872e+6
+  SourceVertexY = 1.63906607e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7830944e+6
+  SourceVertexY = 1.63907825e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78306438e+6
+  SourceVertexY = 1.63910989e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg1"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78377974e+6
+  SourceVertexY = 1.63991622e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78377382e+6
+  SourceVertexY = 1.63991949e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78371931e+6
+  SourceVertexY = 1.63984105e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78372629e+6
+  SourceVertexY = 1.6398364e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg2"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 5
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78377382e+6
+  SourceVertexY = 1.63991949e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78377974e+6
+  SourceVertexY = 1.63991622e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78379824e+6
+  SourceVertexY = 1.63994771e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78380463e+6
+  SourceVertexY = 1.63996451e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78380739e+6
+  SourceVertexY = 1.63998131e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg3"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78404811e+6
+  SourceVertexY = 1.64010744e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78406306e+6
+  SourceVertexY = 1.64015273e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78406555e+6
+  SourceVertexY = 1.64019386e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78406015e+6
+  SourceVertexY = 1.64020051e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg4"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78411351e+6
+  SourceVertexY = 1.64028426e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412181e+6
+  SourceVertexY = 1.64028468e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413521e+6
+  SourceVertexY = 1.64034701e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412946e+6
+  SourceVertexY = 1.64035275e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg5"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412484e+6
+  SourceVertexY = 1.64042176e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413042e+6
+  SourceVertexY = 1.64041937e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413095e+6
+  SourceVertexY = 1.64042336e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412457e+6
+  SourceVertexY = 1.64043054e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg6"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78414573e+6
+  SourceVertexY = 1.64061982e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78414546e+6
+  SourceVertexY = 1.64062434e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78414413e+6
+  SourceVertexY = 1.64063418e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413988e+6
+  SourceVertexY = 1.64064614e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413323e+6
+  SourceVertexY = 1.64065997e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412286e+6
+  SourceVertexY = 1.64066794e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg7"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 7
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412741e+6
+  SourceVertexY = 1.64052077e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412808e+6
+  SourceVertexY = 1.64052775e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412774e+6
+  SourceVertexY = 1.64053506e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412608e+6
+  SourceVertexY = 1.64054537e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412409e+6
+  SourceVertexY = 1.64055202e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7841191e+6
+  SourceVertexY = 1.640557e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78411312e+6
+  SourceVertexY = 1.64056099e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "bourg8"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 1
+SrcGroup =
+  "Bourg"
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412808e+6
+  SourceVertexY = 1.64043668e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413173e+6
+  SourceVertexY = 1.64044267e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413406e+6
+  SourceVertexY = 1.64044998e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413439e+6
+  SourceVertexY = 1.64046693e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78413306e+6
+  SourceVertexY = 1.64047989e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78412841e+6
+  SourceVertexY = 1.64049385e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source016"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78379957e+6
+  SourceVertexY = 1.64080709e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78379631e+6
+  SourceVertexY = 1.64083312e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78377493e+6
+  SourceVertexY = 1.6408559e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source017"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7838242e+6
+  SourceVertexY = 1.6407555e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78382234e+6
+  SourceVertexY = 1.64077409e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78381026e+6
+  SourceVertexY = 1.64078385e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source018"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 6
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78372798e+6
+  SourceVertexY = 1.64090889e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78375866e+6
+  SourceVertexY = 1.64089541e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78378004e+6
+  SourceVertexY = 1.64090517e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7838005e+6
+  SourceVertexY = 1.64092376e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78378702e+6
+  SourceVertexY = 1.64093074e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78371543e+6
+  SourceVertexY = 1.6409312e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source019"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78360463e+6
+  SourceVertexY = 1.64100139e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78361003e+6
+  SourceVertexY = 1.641023e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78357424e+6
+  SourceVertexY = 1.64122427e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7835657e+6
+  SourceVertexY = 1.64122392e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source020"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78357276e+6
+  SourceVertexY = 1.6414417e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78357163e+6
+  SourceVertexY = 1.64139858e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78356653e+6
+  SourceVertexY = 1.64139945e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78356237e+6
+  SourceVertexY = 1.64143872e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source021"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 5
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78356565e+6
+  SourceVertexY = 1.64157432e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78356304e+6
+  SourceVertexY = 1.64145532e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78357111e+6
+  SourceVertexY = 1.64148879e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78357171e+6
+  SourceVertexY = 1.64152211e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78356962e+6
+  SourceVertexY = 1.64156197e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source022"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78349759e+6
+  SourceVertexY = 1.64169529e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78350651e+6
+  SourceVertexY = 1.64162315e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78351469e+6
+  SourceVertexY = 1.64163579e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78350279e+6
+  SourceVertexY = 1.64168934e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source023"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78343995e+6
+  SourceVertexY = 1.64182061e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78347974e+6
+  SourceVertexY = 1.64174512e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78348569e+6
+  SourceVertexY = 1.6417507e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78344887e+6
+  SourceVertexY = 1.64181726e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source024"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78253295e+6
+  SourceVertexY = 1.64179317e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78255328e+6
+  SourceVertexY = 1.64180116e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78261647e+6
+  SourceVertexY = 1.64190139e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78261066e+6
+  SourceVertexY = 1.64192681e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source025"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 5
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7822536e+6
+  SourceVertexY = 1.64151392e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78227771e+6
+  SourceVertexY = 1.64152952e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78230892e+6
+  SourceVertexY = 1.64155505e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7823231e+6
+  SourceVertexY = 1.6415735e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78228722e+6
+  SourceVertexY = 1.64155137e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source026"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78237199e+6
+  SourceVertexY = 1.64162649e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78240376e+6
+  SourceVertexY = 1.64165373e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78241466e+6
+  SourceVertexY = 1.64168006e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source027"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78241466e+6
+  SourceVertexY = 1.64168006e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78243917e+6
+  SourceVertexY = 1.64170275e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78244552e+6
+  SourceVertexY = 1.64172272e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source028"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78210235e+6
+  SourceVertexY = 1.64147349e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78214668e+6
+  SourceVertexY = 1.64148058e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78216795e+6
+  SourceVertexY = 1.64150895e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Source029"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  3.2e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78284831e+6
+  SourceVertexY = 1.63880853e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78289188e+6
+  SourceVertexY = 1.63882712e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78293023e+6
+  SourceVertexY = 1.63884688e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.78295696e+6
+  SourceVertexY = 1.63887593e+6
+  /

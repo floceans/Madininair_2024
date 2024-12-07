@@ -1,0 +1,31 @@
+____________________________________________________________________________
+____________________________________________________________________________
+_____________________________ ADMS-Urban (5.0) _____________________________
+_________________ Atmospheric Dispersion Modelling System __________________
+____________________________________________________________________________
+___ Copyright (C) 2020 Cambridge Environmental Research Consultants Ltd. ___
+____________________________________________________________________________
+_______________ This run was made at 15:36 on the 29/07/2024 _______________
+____________________________________________________________________________
+ **************************************************************************
+ *                               ADMS-Urban                               *
+ *                            Version 5.0.0.1                             *
+ *                           Build number 5129                            *
+ *                              January 2020                              *
+ *                                                                        *
+ *                Atmospheric Dispersion Modelling System                 *
+ *                                                                        *
+ *                                                                        *
+ *         User Name:      Ms Lilou Saby                                  *
+ *                                                                        *
+ *         Company Name:   Madininair                                     *
+ *                                                                        *
+ *         Licence Number: P01-1392-C-URBAN-FR                            *
+ *                                                                        *
+ **************************************************************************
+
+SETUP MESSAGES:
+
+INFO   : SHORT TERM CALCULATIONS:
+INFO   : Roughness data from file C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\fichiers ter & ruf\terrain_francois_wsg_3395.ruf being used. Any other dispersion site roughness data (from screen or met file) will be ignored.
+ERROR  : Unable to read data for source     1 from datafile

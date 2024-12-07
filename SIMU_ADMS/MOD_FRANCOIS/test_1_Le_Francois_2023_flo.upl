@@ -1,0 +1,920 @@
+&ADMS_HEADER
+Comment     = "This is an ADMS-Urban Model parameter file"
+Model       = "ADMS-Urban"
+Version     = 5
+FileVersion = 12
+Complete    = 1
+/
+
+&ADMS_PARAMETERS_SUP
+SupSiteName                 = "Le François 1"
+SupProjectName              = "Project_1_Francois_2023_Florent"
+SupUseAddInput              = 0
+SupAddInputPath             = " "
+SupReleaseType              = 0
+SupModelBuildings           = 0
+SupModelComplexTerrain      = 1
+SupModelCoastline           = 0
+SupCalcChm                  = 0
+SupCalcDryDep               = 0
+SupCalcWetDep               = 0
+SupModelOdours              = 0
+SupPaletteType              = 1
+SupUseSpatialSplitting      = 0
+SupNumSplitRegions          = 0
+SupUseSrcExcByRec           = 0
+SupUseSrcExcByEmRate        = 0
+SupUseTimeVaryingEmissions  = 0
+SupTimeVaryingEmissionsType = 0
+SupUseTimeVaryingFAC        = 0
+SupTimeVaryingFACPath       = " "
+SupUseTimeVaryingHFC        = 0
+SupTimeVaryingHFCPath       = " "
+SupUseTimeVaryingScreenBySource= "00001100"
+SupTimeVaryingEmissionFactorsWeekday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTimeVaryingEmissionFactorsSaturday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTimeVaryingEmissionFactorsSunday =
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+  1.0e+0 1.0e+0 1.0e+0 1.0e+0
+SupTrafficEmissionsDataset  = "EFT v9.0 (2 VC)"
+SupModelAircraft            = 0
+SupAircraftDataPath         = " "
+SupAircraftUseSpeedEmissionFile= 0
+SupAircraftSpeedEmissionPath= " "
+SupAircraftNumGroups        = 0
+SupNO2PercentIndustrial     = 5
+SupNO2PercentRoad           = 23.8
+SupNO2PercentGrid           = 12
+SupNO2PercentAircraft       = 5
+/
+&ADMS_PARAMETERS_SPLIT
+SplitRegionRunType          = 0
+SplitRegionRunSingleID      = 1
+SplitTruncateOutputPoints   = 1
+SplitTruncateSource =
+  1 1 1 1
+  1 0 0 0
+SplitTruncateBufferSize =
+  5.00e+2 5.00e+2 5.00e+2 5.00e+2
+  5.00e+2 5.00e+2 5.00e+2 5.00e+2
+SplitPartiallyInBufferType =
+  0 0 0 0
+  0 0 0 0
+/
+&ADMS_PARAMETERS_SER
+SERSelectedSourceType       = 99
+SERTruncateSource =
+  1 1 1 1
+  1 0 0 0
+SERTruncateRadius =
+  1.000e+3 1.000e+3 1.000e+3 1.000e+3
+  1.000e+3 1.000e+3 1.000e+3 1.000e+3
+/
+&ADMS_PARAMETERS_SEE
+SEEPollutant                = " "
+SEETruncateSource =
+  1 1 1 1
+  1 0 0 0
+SEETruncateEmRate =
+  0.0e+0 0.0e+0 0.0e+0 0.0e+0
+  0.0e+0 0.0e+0 0.0e+0 0.0e+0
+/
+&ADMS_PARAMETERS_MET
+MetLatitude               = 1.46303e+1
+MetDataSource             = 0
+MetDataFileWellFormedPath = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\météo\met_francois_23_24.met"
+MetWindHeight             = 2.0e+0
+MetWindInSectors          = 0
+MetWindSectorSizeDegrees  = 1.0e+1
+MetDataIsSequential       = 1
+MetUseSubset              = 1
+MetSubsetHourStart        = 1
+MetSubsetDayStart         = 1
+MetSubsetMonthStart       = 8
+MetSubsetYearStart        = 2023
+MetSubsetHourEnd          = 24
+MetSubsetDayEnd           = 6
+MetSubsetMonthEnd         = 8
+MetSubsetYearEnd          = 2023
+MetUseVerticalProfile     = 0
+MetVerticalProfilePath    = " "
+Met_DS_RoughnessMode      = 1
+Met_DS_Roughness          = 4.5e-1
+Met_DS_UseAdvancedMet     = 0
+Met_DS_SurfaceAlbedoMode  = 0
+Met_DS_SurfaceAlbedo      = 2.3e-1
+Met_DS_PriestlyTaylorMode = 0
+Met_DS_PriestlyTaylor     = 1.0e+0
+Met_DS_MinLmoMode         = 1
+Met_DS_MinLmo             = 3.0e+1
+Met_DS_PrecipFactorMode   = 0
+Met_DS_PrecipFactor       = 1.0e+0
+Met_MS_RoughnessMode      = 1
+Met_MS_Roughness          = 4.5e-1
+Met_MS_UseAdvancedMet     = 0
+Met_MS_SurfaceAlbedoMode  = 3
+Met_MS_SurfaceAlbedo      = 2.3e-1
+Met_MS_PriestlyTaylorMode = 3
+Met_MS_PriestlyTaylor     = 1.0e+0
+Met_MS_MinLmoMode         = 3
+Met_MS_MinLmo             = 1.0e+0
+MetHeatFluxType           = 0
+MetInclBoundaryLyrHt      = 1
+MetInclSurfaceTemp        = 0
+MetInclLateralSpread      = 0
+MetInclRelHumidity        = 0
+MetHandNumEntries         = 0
+/
+&ADMS_PARAMETERS_BLD
+BldNumBuildings = 0
+/
+&ADMS_PARAMETERS_HIL
+HilGridSize        = 2
+HilUseTerFile      = 1
+HilUseRoughFile    = 1
+HilTerrainPath     = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\fichiers ter & ruf\francois_wsg_3395_light.ter"
+HilRoughPath       = "C:\Users\service.si\OneDrive - MADININAIR\Documents\Simu_ADMS\terrain\fichiers ter & ruf\terrain_francois_wsg_3395.ruf"
+HilCreateFlowField = 0
+/
+&ADMS_PARAMETERS_CST
+CstPoint1X         = 0.0e+0
+CstPoint1Y         = 0.0e+0
+CstPoint2X         = -1.000e+3
+CstPoint2Y         = 1.000e+3
+CstLandPointX      = 5.00e+2
+CstLandPointY      = 5.00e+2
+/
+&ADMS_PARAMETERS_GRD
+GrdType            = 0
+GrdCoordSysType    = 0
+GrdSpacingType     = 0
+GrdUseSourceOrientedGrids = 
+ 0
+ 1
+GrdRegularMin      = 
+ -6.779430e+6 1.643328e+6 0.0e+0
+GrdRegularMax      = 
+ -6.775977e+6 1.646464e+6 0.0e+0
+GrdRegularNumPoints= 
+ 31 31 1
+GrdVarSpaceNumPointsX  = 0
+GrdVarSpaceNumPointsY  = 0
+GrdVarSpaceNumPointsZ  = 0
+GrdPtsNumPoints        = 0
+GrdPtsUsePointsFile    = 0
+GrdPtsPointsFilePath   = " "
+/
+&ADMS_PARAMETERS_OPT
+OptNumOutputs               = 1
+OptPolName                  =
+  "H2S"
+OptInclude                  =
+  1
+OptShortOrLong              =
+  0
+OptSamplingTime             =
+  1.0e+0
+OptSamplingTimeUnits        =
+  3
+OptCondition                =
+  0
+OptNumPercentiles           =
+  0
+OptNumExceedences           =
+  0
+OptPercentiles              =
+  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0
+OptExceedences              =
+  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0  0.0e+0
+OptUnits                    =
+  "ug/m3"
+OptValidity                 =
+  7.5e+1
+OptGroupsOrSource           = 0
+OptAllSources               = 1
+OptNumGroups                = 0
+OptIncludedSource           = "plage_sud"
+OptCreateComprehensiveFile  = 0
+OptOutputPerSource          = 0
+/
+&ADMS_PARAMETERS_CHM
+ChmScheme       = 1
+/
+&ADMS_PARAMETERS_BKG
+BkgFilePath     = " "
+BkgFixedLevels  = 1
+/
+&ADMS_COORDINATESYSTEM
+ProjectedEPSG               = 3395
+ProjectedName               = "WGS 84 World Mercator (epsg:3395)"
+ProjectedWKT                = " "
+/
+&ADMS_PARAMETERS_ETC
+SrcNumSources   = 7
+PolNumPollutants= 9
+PolNumIsotopes  = 1
+/
+&ADMS_MAPPERPROJECT
+ProjectFilePath             = " "
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NOx"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.2e-1
+ PolBkgLevel        = 2.000e+3
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NO2"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.2e-1
+ PolBkgLevel        = 8.00e+2
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "NO"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 8.0e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "VOC"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 3.1e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "O3"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 5.0e-1
+ PolBkgLevel        = 1.2700e+4
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "SO2"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 3.7e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "PM2.5"
+ PolPollutantType         = 1
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  2.5e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 1.0e+0
+ PolBkgLevel        = 6.500e+3
+ PolBkgUnits        = "ug/m3"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "PM10"
+ PolPollutantType         = 1
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-5
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 1.0e+0
+ PolBkgLevel        = 2.0000e+4
+ PolBkgUnits        = "ug/m3"
+/
+
+&ADMS_POLLUTANT_DETAILS
+ PolName                  = "H2S"
+ PolPollutantType         = 0
+ PolGasDepVelocityKnown   = 1
+ PolGasDepositionVelocity = 0.0e+0
+ PolGasType               = 1
+ PolParDepVelocityKnown   = 1
+ PolParTermVelocityKnown  = 1
+ PolParNumDepositionData  = 1
+ PolParDepositionVelocity =
+  0.0e+0
+ PolParTerminalVelocity =
+  0.0e+0
+ PolParDiameter =
+  1.0e-6
+ PolParDensity =
+  1.000e+3
+ PolParMassFraction =
+  1.0e+0
+ PolWetWashoutKnown = 1
+ PolWetWashout      = 0.0e+0
+ PolWetWashoutA     = 1.0e-4
+ PolWetWashoutB     = 6.4e-1
+ PolConvFactor      = 7.2e-1
+ PolBkgLevel        = 0.0e+0
+ PolBkgUnits        = "ppb"
+/
+
+&ADMS_ISOTOPE_DETAILS
+ IsoName                  = "(unnamed-isotope)"
+ IsoPollutantType         = 0
+ IsoGasDepVelocityKnown   = 1
+ IsoGasDepositionVelocity = 0.0e+0
+ IsoGasType               = 0
+ IsoParDepVelocityKnown   = 1
+ IsoParTermVelocityKnown  = 1
+ IsoParNumDepositionData  = 1
+ IsoParDepositionVelocity =
+  0.0e+0
+ IsoParTerminalVelocity =
+  0.0e+0
+ IsoParDiameter =
+  1.0e-6
+ IsoParDensity =
+  1.000e+3
+ IsoParMassFraction =
+  1.0e+0
+ IsoWetWashoutKnown = 1
+ IsoWetWashout      = 0.0e+0
+ IsoWetWashoutA     = 1.0e-4
+ IsoWetWashoutB     = 6.4e-1
+ IsoConvFactor      = 1.0e+0
+ IsoBkgLevel        = 0.0e+0
+ IsoBkgUnits        = "Bq/m3"
+/
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "plage_sud"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.1e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.1e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2023
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  0.0e+0
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77658671e+6
+  SourceVertexY = 1.63344018e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77658304e+6
+  SourceVertexY = 1.63330915e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77662208e+6
+  SourceVertexY = 1.63330521e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77663103e+6
+  SourceVertexY = 1.63338963e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "marigot"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77657572e+6
+  SourceVertexY = 1.63327458e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77671307e+6
+  SourceVertexY = 1.63325638e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77671124e+6
+  SourceVertexY = 1.63328913e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77662208e+6
+  SourceVertexY = 1.63330521e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "plage_sud_2"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7767442e+6
+  SourceVertexY = 1.63354938e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77685408e+6
+  SourceVertexY = 1.63354938e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77698594e+6
+  SourceVertexY = 1.63359123e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77707934e+6
+  SourceVertexY = 1.63368587e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "cul_sac_1"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77720894e+6
+  SourceVertexY = 1.63441655e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77730623e+6
+  SourceVertexY = 1.63443645e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77734629e+6
+  SourceVertexY = 1.63449048e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "cul_sac_2"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77778124e+6
+  SourceVertexY = 1.63419191e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77784991e+6
+  SourceVertexY = 1.6341521e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77793003e+6
+  SourceVertexY = 1.63421466e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "port_francois"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 3
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77814357e+6
+  SourceVertexY = 1.63463621e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77817486e+6
+  SourceVertexY = 1.6345979e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77826277e+6
+  SourceVertexY = 1.63463138e+6
+  /
+
+&ADMS_SOURCE_DETAILS
+SrcName         = "Bourg_francois"
+SrcMainBuilding = "(Main)"
+SrcHeight       = 0.0e+0
+SrcDiameter     = 1.0e+0
+SrcVolFlowRate  = 1.1781e+1
+SrcVertVeloc    = 0.0e+0
+SrcTemperature  = 2.8e+1
+SrcMolWeight    = 3.4e+1
+SrcDensity      = 1.225e+0
+SrcSpecHeatCap  = 1.012e+3
+SrcSourceType   = 1
+SrcReleaseAtNTP = 0
+SrcEffluxType   = 0
+SrcBuoyancyType = 0
+SrcX1           = 0.0e+0
+SrcY1           = 0.0e+0
+SrcL1           = 1.0e+0
+SrcL2           = 1.0e+0
+SrcNumGroups    = 0
+SrcTraEmissionsMode = 0
+SrcTraYear      = 2018
+SrcTraRoadType  = "Unknown"
+SrcTraGradient  = 0.0e+0
+SrcNumVertices  = 4
+SrcTraNumTrafficFlows = 0
+SrcNumPollutants= 1
+SrcPollutants =
+  "H2S"
+SrcPolEmissionRate =
+  1.0e-4
+SrcPolTotalemission =
+  1.0e+0
+SrcPolStartTime =
+  0.0e+0
+SrcPolDuration =
+  0.0e+0
+SrcNumIsotopes = 0
+/
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77917336e+6
+  SourceVertexY = 1.63471797e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77923345e+6
+  SourceVertexY = 1.63468384e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.7792964e+6
+  SourceVertexY = 1.63482033e+6
+  /
+
+  &ADMS_SOURCE_VERTEX
+  SourceVertexX = -6.77924489e+6
+  SourceVertexY = 1.63483739e+6
+  /
